@@ -12,9 +12,9 @@
 " License:    MIT
 
 
-if !has('gui_running') && &t_Co < 256
-  finish
-endif
+" if !has('gui_running') && &t_Co < 256
+"   finish
+" endif
 
 set background=dark
 hi clear
@@ -79,7 +79,7 @@ hi! User2 ctermbg=237 ctermfg=216 guifg=#e2a478 guibg=#2a3158 gui=bold cterm=bol
 hi! StorageClass ctermfg=110 guifg=#84a0c6
 hi! String ctermfg=109 guifg=#89b8c2
 hi! Structure ctermfg=110 guifg=#84a0c6
-hi! TabLine ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
+hi! TabLine ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6 gui=NONE cterm=NONE
 hi! TabLineFill ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
 hi! TabLineSel ctermbg=237 ctermfg=150 guifg=#b4be82 guibg=#2a3158
 hi! Title ctermfg=216 gui=NONE guifg=#e2a478
