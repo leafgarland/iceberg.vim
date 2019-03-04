@@ -36,7 +36,7 @@ hi! CursorLineNr ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
 hi! Delimiter ctermfg=252 guifg=#c6c8d1
 hi! DiffAdd ctermbg=29 ctermfg=158 guibg=#45493e guifg=#c0c5b9
 hi! DiffChange ctermbg=23 ctermfg=159 guibg=#384851 guifg=#b3c3cc
-hi! DiffDelete ctermbg=95 ctermfg=224 guibg=#53343b guifg=#ceb0b6
+hi! DiffDelete ctermbg=95 ctermfg=224 guibg=#53343b guifg=#e27878
 hi! DiffText cterm=NONE ctermbg=30 ctermfg=195 gui=NONE guibg=#5b7881 guifg=#c6c8d1
 hi! Directory ctermfg=109 guifg=#89b8c2
 hi! Error ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
@@ -78,7 +78,7 @@ hi! User1 ctermbg=237 ctermfg=150 guifg=#b4be82 guibg=#2a3158 gui=bold cterm=bol
 hi! User2 ctermbg=237 ctermfg=216 guifg=#e2a478 guibg=#2a3158 gui=bold cterm=bold
 hi! User3 ctermfg=237 ctermbg=216 gui=NONE guibg=#e2a478 guifg=#2a3158
 hi! StorageClass ctermfg=110 guifg=#84a0c6
-hi! String ctermfg=109 guifg=#89b8c2
+hi! String ctermfg=109 guifg=#b4be82 guibg=#272b15
 hi! Structure ctermfg=110 guifg=#84a0c6
 hi! TabLine ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6 gui=NONE cterm=NONE
 hi! TabLineFill ctermbg=237 ctermfg=253 guibg=#2a3158 guifg=#cdd1e6
@@ -241,13 +241,13 @@ if has('nvim')
   let g:terminal_color_6 = '#89b8c2'
   let g:terminal_color_7 = '#c6c8d1'
   let g:terminal_color_8 = '#6b7089'
-  let g:terminal_color_9 = '#e98989'
-  let g:terminal_color_10 = '#c0ca8e'
-  let g:terminal_color_11 = '#e9b189'
-  let g:terminal_color_12 = '#91acd1'
-  let g:terminal_color_13 = '#ada0d3'
+  let g:terminal_color_9 = '#f99999'
+  let g:terminal_color_10 = '#d0da9e'
+  let g:terminal_color_11 = '#f9c199'
+  let g:terminal_color_12 = '#a2bce1'
+  let g:terminal_color_13 = '#bdb0e3'
   let g:terminal_color_14 = '#95c4ce'
-  let g:terminal_color_15 = '#d2d4de'
+  let g:terminal_color_15 = '#e2e4ee'
 else
-  let g:terminal_ansi_colors = ['#1e2132', '#e27878', '#b4be82', '#e2a478', '#84a0c6', '#a093c7', '#89b8c2', '#c6c8d1', '#6b7089', '#e98989', '#c0ca8e', '#e9b189', '#91acd1', '#ada0d3', '#95c4ce', '#d2d4de']
+  let g:terminal_ansi_colors = ['#1e2132', '#e27878', '#b4be82', '#e2a478', '#84a0c6', '#a093c7', '#89b8c2', '#c6c8d1', '#6b7089', '#f99999', '#d0da9e', '#f9c199', '#a2bce1', '#bdb0e3', '#a5d4de', '#e2e4ee']
 endif
