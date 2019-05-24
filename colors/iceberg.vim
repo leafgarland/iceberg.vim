@@ -44,7 +44,7 @@ hi! ErrorMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
 hi! WarningMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
 hi! EndOfBuffer ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
 hi! NonText ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
-hi! SpecialKey ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
+hi! SpecialKey ctermbg=234 ctermfg=236 guibg=#161821 guifg=#89b8c2
 hi! Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
 hi! FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
 hi! Function ctermfg=110 guifg=#84a0c6
@@ -55,7 +55,7 @@ hi! MatchParen ctermbg=237 ctermfg=255 guibg=#3e445e guifg=#ffffff
 hi! MoreMsg ctermfg=150 guifg=#b4be82
 hi! Normal ctermbg=234 ctermfg=252 guibg=#161821 guifg=#c6c8d1
 hi! Operator ctermfg=110 guifg=#84a0c6
-hi! Pmenu ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
+hi! Pmenu ctermbg=236 ctermfg=251 guibg=#2a3158 guifg=#c6c8d1
 hi! PmenuSbar ctermbg=236 guibg=#3d425b
 hi! PmenuSel ctermbg=240 ctermfg=255 guibg=#5b6389 guifg=#eff0f4
 hi! PmenuThumb ctermbg=251 guibg=#c6c8d1
@@ -230,6 +230,21 @@ hi! link typescriptIdentifier Statement
 hi! link typescriptMessage Normal
 hi! link typescriptNull Constant
 hi! link typescriptParens Normal
+
+hi! CocErrorSign guifg=#e27878
+hi! CocWarningSign guifg=#e2a478
+hi! CocInfoSign guifg=#84a0c6
+hi! CocHintSign guifg=#a093c7
+
+" these default to String, but that has a guibg which looks weird
+hi! link pandocNoFormatted ModeMsg
+hi! link pandocCodePre ModeMsg
+hi! link pandocNoFormatted ModeMsg
+hi! link pandocNoFormattedAttrs ModeMsg
+hi! link pandocDelimitedCodeBlock ModeMsg
+hi! link pandocCodeBlockInsideIndent ModeMsg
+hi! link markdownCode ModeMsg
+hi! link markdownCodeDelimiter ModeMsg
 
 if has('nvim')
   let g:terminal_color_0 = '#1e2132'
